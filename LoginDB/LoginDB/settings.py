@@ -79,6 +79,17 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     },
+    'Postgres_Config' :{
+          'ENGINE': 'django.db.backends.postgresql_psycopg2', 
+          'NAME': 'MrDB',
+          'USER': 'postgres',
+          'PASSWORD': 'admin',
+          'HOST': 'localhost',
+          'PORT': '5432',
+          'OPTIONS': {
+              'options': '-c search_path=registrations',
+          },
+      },
 }
 
 

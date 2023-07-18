@@ -21,4 +21,7 @@ from OperationsDB import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.startup,name='signup'),
+    path('fetch',views.fetch),
+    path('signup',views.signup,name='signup'),
+    path('login',views.login,name='login'),
 ]
