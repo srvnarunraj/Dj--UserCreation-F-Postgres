@@ -1,4 +1,4 @@
-# Signup & Login Application using POSTGRES DB
+# Signup & Login Application using POSTGRES DB via Flask
 
 
 - <b>Step 1 :</b> Initial Setup of the Project 
